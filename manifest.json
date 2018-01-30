@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Search on Google Map",
+  "version": "0.1",
+  "description": "Right-click to search the selected text on Google Map",
+  "icons": {
+    "512": "icons/icon-512.png"
+  },
+  "permissions": [ "contextMenus" ],
+  "background": {
+    "scripts": [ "background.js" ]
+  }
+}
